@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: '',
     children: []
+  },
+  {
+    path: 'oss',
+    loadChildren: 'app/oss/oss.module#OssModule'
   }
 ];
 
